@@ -9,7 +9,7 @@ sudo /etc/hosts
 ```
 sudo vi /etc/hosts/apache2/extra/httpd-vhosts.conf
 ```
-```
+```php
 <VirtualHost *:80>
   ServerName local-mantaray.com
   DocumentRoot /Users/Bryant/Desktop/DigitalCrafts/unit4/mantaray
