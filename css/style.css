@@ -1,0 +1,50 @@
+/* line 1, ../compass/sass/_navbar.scss */
+#main-nav {
+  background-color: black;
+  border-radius: 0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+}
+/* line 8, ../compass/sass/_navbar.scss */
+#main-nav .left {
+  float: left;
+  width: 50%;
+}
+/* line 13, ../compass/sass/_navbar.scss */
+#main-nav .right {
+  float: right;
+  width: 25%;
+}
+/* line 18, ../compass/sass/_navbar.scss */
+#main-nav button {
+  width: 120px;
+  height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 1, ../compass/sass/_home.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 6, ../compass/sass/_home.scss */
+#home {
+  background-image: url("../img/unicorn.jpg");
+  height: 600px;
+  margin-top: -20px;
+  background-size: cover;
+}
+
+/* line 13, ../compass/sass/_home.scss */
+.home-text {
+  text-align: center;
+  font-size: 90px;
+  color: black;
+  padding-top: 250px;
+  margin-top: 0px;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
+}
