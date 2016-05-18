@@ -32,10 +32,10 @@ sudo apchectl -t
 ```
 ###Include compass boilerplate
 ####Inside mqSQL created mantaray database
-####Added POSTS, USERS, VOTES tables in mySQL
-####Inside Users, setup username, password, and email fields to be send by register.php
+#####Added POSTS, USERS, VOTES tables in mySQL
+#####Inside Users, setup username, password, and email fields to be send by register.php
 ###Configured a register.php page
-####Created inputs inside a form tag. Form action="register.process.php"
+#####Created inputs inside a form tag. Form action="register.process.php"
 ```php
 <form action="register_process.php" method="post">
 		<div class="form-group" >
@@ -46,25 +46,13 @@ sudo apchectl -t
 			<label for="exampleInputPassword1">Username</label>
 			<input type="text" name="username" class="form-control" id="username" placeholder="User Name">
 		</div>
-		<div class="form-group">
-			<label for="exampleInputEmail1">Email Address</label>
-			<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-		</div>
-		<div class="form-group">
-			<label for="exampleInputPassword1">Password</label>
-			<input type="password" name="password" class="form-control" id="password1" placeholder="Password">
-		</div>
-		<div class="form-group">
-			<label for="exampleInputPassword2">Confirm Password</label>
-			<input type="password" name="password2"class="form-control" id="password2" placeholder="Confirm Password">
-		</div>
-		<button type="submit" class="btn btn-default">Register</button>
+		BLAH BLAH BLAH BLAH BLAH BLAH
 	</form>
 </body>
 <?php require_once 'includes/footer.php'; ?>
 ```
 ###Configured register_process.php to handle $_POST request coming from register.php
-####Connect to mySQL
+#####Connect to mySQL
 ```php
 require_once 'includes/meekrodb.2.3.class.php';
 	DB::$user = 'x';
@@ -74,9 +62,9 @@ require_once 'includes/meekrodb.2.3.class.php';
 	DB::$error_handler = false; // since we're catching errors, don't need error handler
 	DB::$throw_exception_on_error = true;	
 ```
-####Check to see if the username is in the DB, if not proceed to next step. If username taken - cannot register
-####Hash the password and insert information into mySQL.
-####Add a Session Variable
+#####Check to see if the username is in the DB, if not proceed to next step. If username taken - cannot register
+#####Hash the password and insert information into mySQL.
+#####Add a Session Variable
 ```php
 $result = DB::query("SELECT * FROM users where username = %s", $_POST['username']);
 	if(!$result){
