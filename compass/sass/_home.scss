@@ -1,6 +1,6 @@
 body{
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-family:'Josefin Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bolder;
 
 }
 #home {
@@ -24,4 +24,11 @@ body{
     6px 6px 1px #00FF00,
     7.5px 7.5px 1px #0000FF,
     9px 9px 1px #800080;
+}
+
+#mission{
+    color:black;
+    p{
+        font-size: 18px;
+    }
 }

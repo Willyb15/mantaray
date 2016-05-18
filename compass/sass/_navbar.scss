@@ -4,15 +4,32 @@
     height: 60px;
     line-height: 60px;
     font-size: 20px;
+    color: white;
+    min-width: 450px;
+    overflow: hidden;
 
-    .left {
+    .resistance {
         float: left;
-        width: 50%;
+        text-shadow: 
+        1.5px 1.5px 1px #FF0000, 
+        3px 3px 1px #FF8000, 
+        4.5px 4.5px 1px #FFFF00, 
+        6px 6px 1px #00FF00, 
+        7.5px 7.5px 1px #0000FF, 
+        9px 9px 1px #800080;
     }
 
-    .right {
+    .username {
         float: right;
-        width: 25%;
+        position: absolute;
+        right: 5%;
+                text-shadow: 
+        1.5px 1.5px 1px #FF0000, 
+        3px 3px 1px #FF8000, 
+        4.5px 4.5px 1px #FFFF00, 
+        6px 6px 1px #00FF00, 
+        7.5px 7.5px 1px #0000FF, 
+        9px 9px 1px #800080;
     }
 
     button {
@@ -21,4 +38,11 @@
         text-transform: uppercase;
         text-align: center;
     }
+}
+
+.buttons {
+    margin-left: 15%;
+    min-width: 300px;
+    margin-top: -5px;
+    overflow: hidden;
 }

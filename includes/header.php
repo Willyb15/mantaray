@@ -1,23 +1,21 @@
 <body>
-  <nav class="navbar navbar-default">
+  <nav id='main-nav' class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="/">Home</a></li>
-        <?php 
-          if(isset($_SESSION['username'])){
-            print '<li>Welcome '.$_SESSION['username'].'</li>';
-            print '<li><a href="post.php">Make a post</a></li>';
-            print '<li><a href="logout.php">Logout</a></li>';
-          }else{
-            print '<li><a href="register.php">Register</a></li>';
-            print '<li><a href="login.php">Login</a></li>';
-          }        
+    <p class="resistance" href="/">La R&eacute;sistance</p>
+      <ul class="nav navbar-nav buttons">
+        <li><a href="/"><button class="btn btn-primary">Home
+        </button></a></li>
+        <?php
+        if(isset($_SESSION['username'])){
+          print '<li><a href="#post"><button class="btn btn-primary">Make a post</button></a></li>';
+          print '<li class="right"><a href="logout.php"><button class="btn btn-danger">Logout</button></a></li>';
+        print '<li class="username">Welcome '.$_SESSION['username'].'</li>';
+        }else{
+          print '<li><a href="register.php"><button class="btn btn-primary">JOIN</button></a></li>';
+          print '<li><a href="login.php"><button class="btn btn-primary">Login</button></a></li>';
+        }
         ?>
-        <li><a href="#">Page 3</a></li> 
-        
+
       </ul>
     </div>
   </nav>

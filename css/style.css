@@ -5,18 +5,23 @@
   height: 60px;
   line-height: 60px;
   font-size: 20px;
+  color: white;
+  min-width: 450px;
+  overflow: hidden;
 }
-/* line 8, ../compass/sass/_navbar.scss */
-#main-nav .left {
+/* line 11, ../compass/sass/_navbar.scss */
+#main-nav .resistance {
   float: left;
-  width: 50%;
+  text-shadow: 1.5px 1.5px 1px #FF0000,  3px 3px 1px #FF8000,  4.5px 4.5px 1px #FFFF00,  6px 6px 1px #00FF00,  7.5px 7.5px 1px #0000FF,  9px 9px 1px #800080;
 }
-/* line 13, ../compass/sass/_navbar.scss */
-#main-nav .right {
+/* line 22, ../compass/sass/_navbar.scss */
+#main-nav .username {
   float: right;
-  width: 25%;
+  position: absolute;
+  right: 5%;
+  text-shadow: 1.5px 1.5px 1px #FF0000,  3px 3px 1px #FF8000,  4.5px 4.5px 1px #FFFF00,  6px 6px 1px #00FF00,  7.5px 7.5px 1px #0000FF,  9px 9px 1px #800080;
 }
-/* line 18, ../compass/sass/_navbar.scss */
+/* line 35, ../compass/sass/_navbar.scss */
 #main-nav button {
   width: 120px;
   height: 40px;
@@ -24,10 +29,18 @@
   text-align: center;
 }
 
+/* line 43, ../compass/sass/_navbar.scss */
+.buttons {
+  margin-left: 15%;
+  min-width: 300px;
+  margin-top: -5px;
+  overflow: hidden;
+}
+
 /* line 1, ../compass/sass/_home.scss */
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-family: 'Josefin Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bolder;
 }
 
 /* line 6, ../compass/sass/_home.scss */
@@ -47,4 +60,45 @@ body {
   margin-top: 0px;
   font-weight: bold;
   text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
+}
+
+/* line 29, ../compass/sass/_home.scss */
+#mission {
+  color: black;
+}
+/* line 31, ../compass/sass/_home.scss */
+#mission p {
+  font-size: 18px;
+}
+
+/* line 2, ../compass/sass/_register.scss */
+.form-group input {
+  width: 90%;
+}
+
+/* line 7, ../compass/sass/_register.scss */
+.light-panel {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+  border: 25px solid #337ab7;
+  margin-top: 40px;
+  min-width: 500px;
+}
+
+/* line 2, ../compass/sass/_posts.scss */
+#post textarea {
+  width: 600px;
+  height: 150px;
+}
+/* line 6, ../compass/sass/_posts.scss */
+#post .individual-post {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 38px 0px 0px 0px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 20px solid #337ab7;
 }
