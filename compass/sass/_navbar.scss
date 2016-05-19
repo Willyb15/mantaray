@@ -22,7 +22,7 @@
     .username {
         float: right;
         position: absolute;
-        right: 5%;
+        right: 9%;
                 text-shadow: 
         1.5px 1.5px 1px #FF0000, 
         3px 3px 1px #FF8000, 
@@ -30,6 +30,12 @@
         6px 6px 1px #00FF00, 
         7.5px 7.5px 1px #0000FF, 
         9px 9px 1px #800080;
+    }
+
+    img{
+    float: right;
+    height: 59px;
+    margin-right: -20px;
     }
 
     button {

@@ -1,10 +1,12 @@
 <body>
   <nav id='main-nav' class="navbar navbar-default">
     <div class="container-fluid">
+    <img src="../img/wblogo.png">
     <p class="resistance" href="/">La R&eacute;sistance</p>
       <ul class="nav navbar-nav buttons">
         <li><a href="/"><button class="btn btn-primary">Home
         </button></a></li>
+
         <?php
         if(isset($_SESSION['username'])){
           print '<li><a href="#post"><button class="btn btn-primary">Make a post</button></a></li>';

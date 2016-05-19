@@ -18,10 +18,16 @@
 #main-nav .username {
   float: right;
   position: absolute;
-  right: 5%;
+  right: 9%;
   text-shadow: 1.5px 1.5px 1px #FF0000,  3px 3px 1px #FF8000,  4.5px 4.5px 1px #FFFF00,  6px 6px 1px #00FF00,  7.5px 7.5px 1px #0000FF,  9px 9px 1px #800080;
 }
 /* line 35, ../compass/sass/_navbar.scss */
+#main-nav img {
+  float: right;
+  height: 59px;
+  margin-right: -20px;
+}
+/* line 41, ../compass/sass/_navbar.scss */
 #main-nav button {
   width: 120px;
   height: 40px;
@@ -29,7 +35,7 @@
   text-align: center;
 }
 
-/* line 43, ../compass/sass/_navbar.scss */
+/* line 49, ../compass/sass/_navbar.scss */
 .buttons {
   min-width: 300px;
   margin-top: -5px;
@@ -86,6 +92,16 @@ body {
 .recent-posts {
   text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
   font-size: 50px;
+}
+
+/* line 49, ../compass/sass/_home.scss */
+.right-container {
+  display: inline-flex;
+}
+
+/* line 53, ../compass/sass/_home.scss */
+.vote-item {
+  margin: 0px 30px 0px 20px;
 }
 
 /* line 2, ../compass/sass/_register.scss */
