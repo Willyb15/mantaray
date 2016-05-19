@@ -10,19 +10,21 @@
 	<div id="main-wrapper">
 		<div id="home">
 			<div class="home-text">
-				<p>Defeat The Unicorn Army</p>
+				<p>Destroy The Unicorns</p>
 			</div>
 		</div>
 	</div>
-	<div id="mission" class="col-sm-6 col-sm-offset-3">
-		<h1>Our Misson</h1>
+	<div id="mission" class="col-sm-8 col-sm-offset-2">
+		<h1 class="our-mission">Our Mission</h1>
 		<div class="mission-header">
 			
-			<p>We are the final resistance against The Unicorn Army's reign of Total World Domination. We, The Woodland Creatures, are totally sick and tired of The Unicorns receiving total carte blanche to do whatever they please! They can breathe fire? SO WHAT! I'm like totally great at things too! Just because they have shiny rods pertruding from their head doesn't mean they can have all the super good jobs and receive better pay. Then The Unicorns had the audacity to ally with The Ninja Kitty's and demand everyone work on COLUMBUS DAY?!?! Are you kidding me! Guy discovered The New World! This is when I'd had it and decided to form La R&eacute;sistance as a means for other UNICORN HATERS to vent and receive support from others in a safe setting. Please sign up and tell us a bit about the last time The Unicorns offended you. VIVE LA R&Egrave;SISTANCE!</p>
+			<p>Welcome to the resistance against The Unicorn's plot for Total World Domination. We are aware of the Unicorn's sinister plan to subjugate the other Woodland Creatures into slavery while they sit back and eat carrots all day.<br>
+			The Unicorns receive carte blanche to do whatever just because they have shiny rods pertruding from their head. SO WHAT they breathe fire! Doesn't mean they deserve all the super good jobs and better pay. What about The Unicorns audacity to ally with The Ninja Kitty's? Together they demanded everyone work on COLUMBUS DAY?!?! Are you kidding me, guy discovered The New World! <br>
+			The time has come for the Unicorns reign to end. La R&eacute;sistance will unite other UNICORN HATERS to vent in a super safe setting. Sign up and share your hatred of The Unicorns. VIVE LA R&Egrave;SISTANCE!</p>
 		</div>
 	</div>
 	<div id="post" class="col-sm-6 col-sm-offset-3 posts">
-	<h1>Recent Posts</h1>
+	<h1 class="recent-posts">Recent Posts</h1>
 	</div>
 	<div id="post" class="col-sm-6 col-sm-offset-3 posts">
 		<?php if(isset($_SESSION['username'])): ?>

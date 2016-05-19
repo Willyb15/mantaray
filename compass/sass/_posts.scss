@@ -1,7 +1,9 @@
 #post{
 	textarea{
-		width: 600px;
+		width: 100%;
 		height: 150px;
+        background-color:floralwhite;
+        font-size:25px;
 	}
 .individual-post{
     background-color: black;
@@ -11,6 +13,8 @@
     border-radius: 5px;
     padding: 20px;
     border: 20px solid #337ab7;
+    font-size: 25px;
+
 }
 
 }

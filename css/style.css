@@ -31,7 +31,6 @@
 
 /* line 43, ../compass/sass/_navbar.scss */
 .buttons {
-  margin-left: 15%;
   min-width: 300px;
   margin-top: -5px;
   overflow: hidden;
@@ -46,7 +45,7 @@ body {
 /* line 6, ../compass/sass/_home.scss */
 #home {
   background-image: url("../img/unicorn.jpg");
-  height: 600px;
+  height: 800px;
   margin-top: -20px;
   background-size: cover;
 }
@@ -54,21 +53,39 @@ body {
 /* line 13, ../compass/sass/_home.scss */
 .home-text {
   text-align: center;
-  font-size: 90px;
+  font-size: 119px;
   color: black;
-  padding-top: 250px;
+  padding-top: 315px;
   margin-top: 0px;
-  font-weight: bold;
+  font-weight: bolder;
   text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
 }
 
-/* line 29, ../compass/sass/_home.scss */
+/* line 23, ../compass/sass/_home.scss */
 #mission {
   color: black;
 }
-/* line 31, ../compass/sass/_home.scss */
+/* line 26, ../compass/sass/_home.scss */
 #mission p {
-  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 38px 0px 0px 0px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 20px solid #337ab7;
+  font-size: 25px;
+}
+/* line 37, ../compass/sass/_home.scss */
+#mission .our-mission {
+  text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
+  font-size: 50px;
+}
+
+/* line 44, ../compass/sass/_home.scss */
+.recent-posts {
+  text-shadow: 1.5px 1.5px 1px #FF0000, 3px 3px 1px #FF8000, 4.5px 4.5px 1px #FFFF00, 6px 6px 1px #00FF00, 7.5px 7.5px 1px #0000FF, 9px 9px 1px #800080;
+  font-size: 50px;
 }
 
 /* line 2, ../compass/sass/_register.scss */
@@ -89,10 +106,12 @@ body {
 
 /* line 2, ../compass/sass/_posts.scss */
 #post textarea {
-  width: 600px;
+  width: 100%;
   height: 150px;
+  background-color: floralwhite;
+  font-size: 25px;
 }
-/* line 6, ../compass/sass/_posts.scss */
+/* line 8, ../compass/sass/_posts.scss */
 #post .individual-post {
   background-color: black;
   color: white;
@@ -101,4 +120,5 @@ body {
   border-radius: 5px;
   padding: 20px;
   border: 20px solid #337ab7;
+  font-size: 25px;
 }
