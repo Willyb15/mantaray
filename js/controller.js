@@ -18,22 +18,24 @@ mantaApp.controller('mantaController', function($scope, $http) {
     // new funcion where we process UP and DOWN at once
     $scope.processVote = function(element, vote) {
         // console.log("Clicked on upvote");
-        // console.log(element.target);
+        // console.dir(element.target.parentElement.children[0].innerHTML="clicked");
+
         console.log(vote);
-        $http.post('..vote_process.php', {
+        $http.post('../vote_process.php', {
             voteDirection: vote,
             idOfPost: element.target.parentElement.id
         }).then(function successCallback(response) {
             // console.dir(element.target.nextElementSibling.innerHTML);
             if (vote == 1) {
                 if (response.data == 'notLoggedIn') {
-                    element.target.nextElementSibling.innerHTML = "Login To Vote";
+                   element.target.parentElement.children[0].innerHTML = "Login to Vote!";
+                    // document.getElementsByClassName("login-to-vote").innerHTML = "Login To Vote";
                 } else {
                     element.target.nextElementSibling.innerHTML = response.data;
                 }
             } else if (vote == -1) {
                 if (response.data == 'notLoggedIn') {
-                    element.target.previousElementSibling.innerHTML = "Login To Vote";
+                     element.target.parentElement.children[0].innerHTML= "Login to Vote!";
                 } else {
                     element.target.previousElementSibling.innerHTML = response.data;
                 }

@@ -43,11 +43,13 @@
         height: 40px;
         text-transform: uppercase;
         text-align: center;
+        overflow:hidden;
     }
 }
 
 .buttons {
-    min-width: 300px;
+    min-width: 500px;
     margin-top: -5px;
+    margin-left: 160px;
     overflow: hidden;
 }

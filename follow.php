@@ -31,11 +31,12 @@
 				<?php endforeach; ?>
 			</div>
 		</div>
-		<h3>Users you are not following</h3>
+		
 	</div>
 </div>
 <div class="container">
 	<div class="row">
+	<h3>Users you are not following</h3>
 		<div class="col-sm-8 col-sm-offset-2">
 			<div class="row">
 				<?php foreach($not_following_array as $user): ?>

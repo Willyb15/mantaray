@@ -24,7 +24,7 @@ DB::$host ='127.0.0.1';
 			print 'following';
 			exit;
 		}else if($followMethod == 'unfollow'){
-			DB::delete('following', "follower%s AND poster=%s", $_SESSION['username'], $poster_username);
+			DB::delete('following', "follower=%s AND poster=%s", $_SESSION['username'], $poster_username);
 			print 'unfollowing';
 			exit;
 		}
