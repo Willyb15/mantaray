@@ -48,9 +48,10 @@
 		?>
 		<div class="individual-post text-center">
 			<div id="<?php print $post['id'];?>" class="right-container">
-				<div class="arrow-up vote-item" ng-click="upVote($event)">X</div>
-				<div class="vote-count vote-item">X</div>
-				<div class="arrow-down vote-item">X</div>
+				<div class="login-to-vote"></div>
+				<div class="arrow-up vote-item" ng-click="processVote($event,1)">UP</div>
+				<div class="vote-count vote-item"></div>
+				<div class="arrow-down vote-item" ng-click="processVote($event, -1)">DOWN</div>
 			</div>
 			
 			<div class="user"><?php print $post['username']; ?></div>
