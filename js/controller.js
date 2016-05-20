@@ -1,11 +1,11 @@
 var mantaApp = angular.module('mantaApp', []);
 mantaApp.controller('mantaController', function($scope, $http) {
 
-        $scope.follow = function(username){
+        $scope.follow = function(username, followMethod){
 
         $http.post('follow_process.php', {
             poster: username,
-            followMethod: 
+            followMethod: followMethod
         }).then(function successCallback(response){
             console.log(response.data);
         }, function errorCallback(response){
