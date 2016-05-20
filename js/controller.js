@@ -20,7 +20,7 @@ mantaApp.controller('mantaController', function($scope, $http) {
         // console.log("Clicked on upvote");
         // console.log(element.target);
         console.log(vote);
-        $http.post('vote_process.php', {
+        $http.post('..vote_process.php', {
             voteDirection: vote,
             idOfPost: element.target.parentElement.id
         }).then(function successCallback(response) {
