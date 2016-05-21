@@ -4,12 +4,12 @@
       <img src="../img/wblogo.png">
       <p class="resistance" href="/">La R&eacute;sistance</p>
       <ul class="nav navbar-nav buttons">
-        <li><a href="unicorn"><button class="btn btn-primary">Home
+        <li><a href="http://willybman.com/unicorn"><button class="btn btn-primary">Home
         </button></a></li>
         <?php
         if(isset($_SESSION['username'])){
         print '<li><a href="#post"><button class="btn btn-primary">Make a post</button></a></li>';
-        print '<li><a href="/follow.php"><button class="btn btn-primary">Follow
+        print '<li><a href="http://willybman.com/unicorn/follow.php"><button class="btn btn-primary">Follow
         </button></a></li>';
         print '<li class="right"><a href="logout.php"><button class="btn btn-danger">Logout</button></a></li>';
         print '<li class="username">Welcome '.$_SESSION['username'].'</li>';
