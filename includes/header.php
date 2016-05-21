@@ -4,7 +4,7 @@
       <img src="../img/wblogo.png">
       <p class="resistance" href="/">La R&eacute;sistance</p>
       <ul class="nav navbar-nav buttons">
-        <li><a href="/"><button class="btn btn-primary">Home
+        <li><a href="/unicorn"><button class="btn btn-primary">Home
         </button></a></li>
         <?php
         if(isset($_SESSION['username'])){
